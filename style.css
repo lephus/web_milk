@@ -1,0 +1,352 @@
+/* <!-- data-key="<?=$rs['STT']?>" --> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.div_big{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{  
+    width: 90%;
+    margin: 30px auto;
+    border: 2px  solid  #ff6600;
+    border-radius: 12px 12px 0px 0px;
+}
+.title{
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 80px;
+    border-radius: 10px 10px 0px 0px;
+}
+.bottom{
+    display: flex;
+    padding: 30px 0;
+    background-color: #fff;
+    font-size: 30px;
+    width: 100%;
+}
+.bottom .left{
+    width: 60%;
+    margin-left: 20px;
+    color: #000;
+}
+.bottom .right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+table{
+    width: 100%;
+}
+tr{
+    text-align: center;
+    height: 40px;
+}
+tr:hover{
+    background-color: #00cccc; 
+}
+
+.word:hover{
+    background-color: #336600;
+}
+
+.word{
+    background-color: #AA3300;
+    color: white;
+    font-size: 20px;
+}
+.word td{
+    
+    font-weight: bold;
+}
+
+
+a{
+    display: inline-block;
+    background-color: #ff9900;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+a:hover{
+    background-color: #14635b;
+}
+
+.btn-action{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+.btn-add{
+    width: 260px;
+    font-size: 30px;
+}
+#Previous{
+    display: inline-block;
+    background-color: #ff9900;
+    text-decoration: none;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+button{
+    background-color: #ff9900;
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+   background-color: #ff9900;
+}
+.content-table{
+    border-collapse: collapse;
+}
+.content-table td{
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-content{
+    background-color: #fff;
+    width: 30%;
+    height: 40%;
+    border-radius: 12px 12px 6px 6px;
+}
+
+.login .login-content .login-top{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    border-radius: 12px 12px 0px 0px;
+}
+.login-top h3{
+    line-height: 80px;
+    color: white;
+    padding-left: 20px;
+}
+.form-user{
+    padding: 18px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.form-user input{
+    width: 70%;
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 20px;
+    border: 2px solid #f0f0f0;
+}
+.form-user input:focus{
+    outline: 0;
+	border-color: #777;
+}
+.form-user i{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    visibility: hidden;
+}
+.form-user small {
+	color: #e74c3c;
+	position: absolute;
+	top: 65px;
+    left: 140px;
+    font-size: 14px;
+    /* visibility: hidden; */
+}
+
+.form-user.success input{
+    border-color: #ff9900;
+}
+/* .form-user.error input{
+    border-color: rgb(218, 86, 86);
+}
+
+.form-user.success i.fa-check-circle-o {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+
+.form-user.error i.fa-exclamation-circle {
+	color: rgb(218, 86, 86);
+	visibility: visible;
+}
+
+.form-user.error small {
+	visibility: visible;
+} */
+
+.form-user button{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.footer_index{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+
+.btn-log{
+    width: 260px;
+
+}
+
+.div_small{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-product{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.bg_modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+    position: fixed;
+}
+ 
+.modal_content{
+    width: 50%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 6px;
+    
+    
+} 
+
+.modal_content_top{
+    width: 100%;
+    height: 80px;
+    background-color: #ff9900;
+    color: #fff;
+    display: flex;
+      /* top left right bottom   */
+    border-radius: 6px 6px 0px 0px; 
+    justify-content: space-between;
+    
+}
+.modal_content_top .top_left{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 20px;
+}
+.modal_content_top .top_right{
+    font-size: 23px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.modal_content_bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.modal_content_bottom .bottom_left{
+    width: 45%;
+    height: 80%;
+    border-right: 1px solid black;
+}
+.modal_content_bottom .bottom_left img{
+    width: 100%;
+    height: 100%;
+}
+.modal_content_bottom .bottom_right{
+    width: 55%;
+}
+
+.admin_footer{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.admin_footer .right{
+    padding-right: 20px;
+} 
+.bg_modal_delete{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal_content_delete{
+    background-color: #fff;
+    width: 30%;
+    height: 20%;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal_content_delete h3{
+    text-align: center;
+}
+.modal_content_delete_bot{
+    text-align: center;
+}
